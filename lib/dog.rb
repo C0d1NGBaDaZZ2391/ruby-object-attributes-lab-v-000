@@ -1,15 +1,18 @@
+#!/usr/bin/env ruby
 
 class Dog
-  def initialize(name, breed)
+  def initialize(name)
     @name = name
-    @breed = breed
-end
+  end
+
+
+
+    name=(dog_name, breed)
+    @name = dog_name
+  end
 
   def name
-    @name
-  end
 
-  def breed
-    @breed
-  end
-end
+
+  fido = Dog.new
+  fido.name = "Fido"
